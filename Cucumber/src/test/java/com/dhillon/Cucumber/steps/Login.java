@@ -12,10 +12,10 @@ public class Login {
 	  System.out.println("User navigate to the stackoverflow website on the login page");
 	}
 
-		@When("^user clicks on the login button$")
+	@When("^user clicks on the login button$")
 	public void user_clicks_on_the_login_button() throws Throwable {
 			 System.out.println("user clicks on the login button");
-		}
+	}
 
 	@When("^user enters valid username ,password$")
 	public void user_enters_valid_username_password() throws Throwable {
